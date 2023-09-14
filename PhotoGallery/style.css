@@ -1,0 +1,17 @@
+img{
+    width: 10rem;    
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}.flex-colomn{
+    display: flex;
+    flex-direction: column;
+}
+.end{
+    display: flex;
+    /* height: 30rem; */
+    width: 100vw; 
+    background-color: aqua;
+    align-items: center;
+}
