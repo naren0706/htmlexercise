@@ -1,0 +1,30 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5rem 1fr 5rem;
+}
+.header{
+background-color: greenyellow;
+padding: 30px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 0.5fr;
+}
+.content>*{
+    padding: 30px;
+}
+.article{
+    background-color: beige;
+}
+.aside{
+background-color: rgba(255, 192, 203, 0.719);
+}
+.nav{
+background-color: rgba(135, 207, 235, 0.719);
+}
+.footer{
+    background-color: greenyellow;
+    padding: 30px;
+
+}
