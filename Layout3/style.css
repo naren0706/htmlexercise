@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    height: 97vh;
+    overflow: hidden;
+}
+.nav{
+    background-color: greenyellow;
+}
+.content{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10vh 1fr 10vh;
+}
+.header{    
+    background-color: rgba(4, 0, 255, 0.568);
+}
+.article{
+    background-color:rgb(250, 235, 215)
+}       
+.footer{
+    background-color: rgba(4, 0, 255, 0.568);
+}
