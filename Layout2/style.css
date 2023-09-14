@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+display: flex;
+overflow: hidden;
+}
+.nav{
+    width: 15vw;
+    background-color: rgba(0, 0, 255, 0.473);
+    padding: 30px;
+}
+.sub-container{
+    width: 100%;
+    display: grid;
+    height: 97vh;
+    grid-template-rows: 10vh 1fr 10vh;
+
+}
+.header{
+    height: 10vh;
+    padding-left: 30px;
+    background-color: greenyellow;
+}
+.content{
+
+    display: flex;
+}
+.article{
+    width: 80%;
+    padding: 30px;
+    background-color: rgb(251, 252, 237);
+}
+.aside{
+width: 20%;
+background-color: rgba(255, 192, 203, 0.678);
+padding: 30px;
+}
+.footer{
+    height: 10vh;
+    background-color: greenyellow;
+    padding: 20px;
+}
